@@ -9,14 +9,11 @@ s.name         = "TabBar"
 s.version      = "1.0.0"
 s.summary      = "这是一个iOS的TabBarSDK."
 s.homepage     = "https://github.com/alienJion/CocoaPods"
-
+s.license      = "MIT"
 s.author             = { "alien" => "alienvvip@126.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/alienJion/CocoaPods.git", :tag => "1.0.0" }
 s.source_files  = 'navigation/*.{h,m}'
-# s.source_files  = 'navigation/publicClass.{h,m}'
-# s.source_files  = 'navigation'
-# s.source_files  = 'navigation/**/*.{h,m}'
 s.frameworks = "UIKit", "Foundation"
 s.requires_arc = true
 end

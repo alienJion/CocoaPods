@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938B25D31F00FC3900662E43 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 938B25CC1F00FC3900662E43 /* .swift-version */; };
+		938B25D41F00FC3900662E43 /* Alien_FixNavigatioPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938B25CD1F00FC3900662E43 /* Alien_FixNavigatioPushViewController.m */; };
+		938B25D51F00FC3900662E43 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 938B25CE1F00FC3900662E43 /* UIViewController+BackButtonHandler.m */; };
+		938B25D61F00FC3900662E43 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938B25CF1F00FC3900662E43 /* MainTabBarController.m */; };
 		93DAFBDF1F00C6B3009AA0F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFBDE1F00C6B3009AA0F8 /* main.m */; };
 		93DAFBE21F00C6B3009AA0F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFBE11F00C6B3009AA0F8 /* AppDelegate.m */; };
 		93DAFBE51F00C6B3009AA0F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFBE41F00C6B3009AA0F8 /* ViewController.m */; };
 		93DAFBE81F00C6B3009AA0F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DAFBE61F00C6B3009AA0F8 /* Main.storyboard */; };
 		93DAFBEA1F00C6B3009AA0F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DAFBE91F00C6B3009AA0F8 /* Assets.xcassets */; };
 		93DAFBED1F00C6B3009AA0F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DAFBEB1F00C6B3009AA0F8 /* LaunchScreen.storyboard */; };
-		93DAFC1F1F00EB95009AA0F8 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 93DAFC181F00EB95009AA0F8 /* .swift-version */; };
-		93DAFC201F00EB95009AA0F8 /* Alien_FixNavigatioPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFC191F00EB95009AA0F8 /* Alien_FixNavigatioPushViewController.m */; };
-		93DAFC211F00EB95009AA0F8 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFC1A1F00EB95009AA0F8 /* UIViewController+BackButtonHandler.m */; };
-		93DAFC221F00EB95009AA0F8 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFC1B1F00EB95009AA0F8 /* MainTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		938B25CC1F00FC3900662E43 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		938B25CD1F00FC3900662E43 /* Alien_FixNavigatioPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alien_FixNavigatioPushViewController.m; sourceTree = "<group>"; };
+		938B25CE1F00FC3900662E43 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		938B25CF1F00FC3900662E43 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		938B25D01F00FC3900662E43 /* Alien_FixNavigatioPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alien_FixNavigatioPushViewController.h; sourceTree = "<group>"; };
+		938B25D11F00FC3900662E43 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		938B25D21F00FC3900662E43 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
 		93DAFBDA1F00C6B3009AA0F8 /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DAFBDE1F00C6B3009AA0F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93DAFBE01F00C6B3009AA0F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,13 +37,6 @@
 		93DAFBE91F00C6B3009AA0F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93DAFBEC1F00C6B3009AA0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93DAFBEE1F00C6B3009AA0F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93DAFC181F00EB95009AA0F8 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
-		93DAFC191F00EB95009AA0F8 /* Alien_FixNavigatioPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alien_FixNavigatioPushViewController.m; sourceTree = "<group>"; };
-		93DAFC1A1F00EB95009AA0F8 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
-		93DAFC1B1F00EB95009AA0F8 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
-		93DAFC1C1F00EB95009AA0F8 /* Alien_FixNavigatioPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alien_FixNavigatioPushViewController.h; sourceTree = "<group>"; };
-		93DAFC1D1F00EB95009AA0F8 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
-		93DAFC1E1F00EB95009AA0F8 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +50,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		938B25CB1F00FC3900662E43 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				938B25CC1F00FC3900662E43 /* .swift-version */,
+				938B25CD1F00FC3900662E43 /* Alien_FixNavigatioPushViewController.m */,
+				938B25CE1F00FC3900662E43 /* UIViewController+BackButtonHandler.m */,
+				938B25CF1F00FC3900662E43 /* MainTabBarController.m */,
+				938B25D01F00FC3900662E43 /* Alien_FixNavigatioPushViewController.h */,
+				938B25D11F00FC3900662E43 /* MainTabBarController.h */,
+				938B25D21F00FC3900662E43 /* UIViewController+BackButtonHandler.h */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
 		93DAFBD11F00C6B3009AA0F8 = {
 			isa = PBXGroup;
 			children = (
-				93DAFC171F00EB95009AA0F8 /* navigation */,
+				938B25CB1F00FC3900662E43 /* navigation */,
 				93DAFBDC1F00C6B3009AA0F8 /* TabBarDemo */,
 				93DAFBDB1F00C6B3009AA0F8 /* Products */,
 			);
@@ -89,20 +103,6 @@
 				93DAFBDE1F00C6B3009AA0F8 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		93DAFC171F00EB95009AA0F8 /* navigation */ = {
-			isa = PBXGroup;
-			children = (
-				93DAFC181F00EB95009AA0F8 /* .swift-version */,
-				93DAFC191F00EB95009AA0F8 /* Alien_FixNavigatioPushViewController.m */,
-				93DAFC1A1F00EB95009AA0F8 /* UIViewController+BackButtonHandler.m */,
-				93DAFC1B1F00EB95009AA0F8 /* MainTabBarController.m */,
-				93DAFC1C1F00EB95009AA0F8 /* Alien_FixNavigatioPushViewController.h */,
-				93DAFC1D1F00EB95009AA0F8 /* MainTabBarController.h */,
-				93DAFC1E1F00EB95009AA0F8 /* UIViewController+BackButtonHandler.h */,
-			);
-			path = navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93DAFC1F1F00EB95009AA0F8 /* .swift-version in Resources */,
+				938B25D31F00FC3900662E43 /* .swift-version in Resources */,
 				93DAFBED1F00C6B3009AA0F8 /* LaunchScreen.storyboard in Resources */,
 				93DAFBEA1F00C6B3009AA0F8 /* Assets.xcassets in Resources */,
 				93DAFBE81F00C6B3009AA0F8 /* Main.storyboard in Resources */,
@@ -178,10 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93DAFC211F00EB95009AA0F8 /* UIViewController+BackButtonHandler.m in Sources */,
+				938B25D51F00FC3900662E43 /* UIViewController+BackButtonHandler.m in Sources */,
 				93DAFBE51F00C6B3009AA0F8 /* ViewController.m in Sources */,
-				93DAFC221F00EB95009AA0F8 /* MainTabBarController.m in Sources */,
-				93DAFC201F00EB95009AA0F8 /* Alien_FixNavigatioPushViewController.m in Sources */,
+				938B25D61F00FC3900662E43 /* MainTabBarController.m in Sources */,
+				938B25D41F00FC3900662E43 /* Alien_FixNavigatioPushViewController.m in Sources */,
 				93DAFBE21F00C6B3009AA0F8 /* AppDelegate.m in Sources */,
 				93DAFBDF1F00C6B3009AA0F8 /* main.m in Sources */,
 			);
